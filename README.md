@@ -4,13 +4,13 @@
 
 In the folder `binaries` are currently found the compiled executables of `iasl` directly from Intel's own sources.<br/>
 
-Since the actual compiler name is the same, each version is differentiated with the release date from Intel.
+Since the actual `iasl` compiler name is the same through each new release, each version stored here is differentiated with the release date from Intel. Just download the needed binary and rename it back to `iasl` for using it later.
 
 ## Intel ACPI References
 
-The ACPI Component Architecture project is currently hosted over at https://www.acpica.org/<br/>
+The **ACPI Component Architecture** project is currently hosted over at https://www.acpica.org/<br/>
 
-The sources themselves are accessible at https://www.acpica.org/downloads/
+The sources themselves are freely accessible at https://www.acpica.org/downloads/ as **acpica-unix-YYYYMMDD.tar.gz** files.
 
 ## Compiling iASL
 
@@ -26,7 +26,7 @@ To test that it has been compiled properly, run:
 
 `./generate/unix/bin/iasl -v`
 
-An example output of the 2020-05-28 release is:
+An example output of the **2020-05-28** release (based on source **acpica-unix-20200528.tar.gz**) is:
 ```
 Intel ACPI Component Architecture
 ASL+ Optimizing Compiler/Disassembler version 20200528
