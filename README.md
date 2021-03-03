@@ -14,15 +14,13 @@ The sources themselves are freely accessible at https://www.acpica.org/downloads
 
 ## Compiling iASL
 
-According to user [acidanthera](https://github.com/acidanthera) page for [MaciASL tool](https://github.com/acidanthera/MaciASL), to build the latest ACPI compiler we need download the (latest) source release from [ACPICA.org](https://www.acpica.org/downloads/) and compile it via `Terminal.app` with the following command whilst in the unpacked sources folder:
+According to user [acidanthera](https://github.com/acidanthera)'s page for [MaciASL tool](https://github.com/acidanthera/MaciASL), to build the latest ACPI compiler we need download the (latest) source release from [ACPICA.org](https://www.acpica.org/downloads/) and compile it via `Terminal.app` with the following command whilst in the unpacked sources folder:
 ```
 CFLAGS="-mmacosx-version-min=10.7 -O3" \
 LDFLAGS="-mmacosx-version-min=10.7" \
 make iasl -j $(getconf _NPROCESSORS_ONLN)
 ```
-The `iasl` binary will be later found at `./generate/unix/bin/` path where you launched the above command from.
-
-To test that it has been compiled properly, run:
+The `iasl` binary will be later found at `./generate/unix/bin/` path where you launched the above command from. To test that it has been compiled properly, run:
 
 `./generate/unix/bin/iasl -v`
 
@@ -35,7 +33,7 @@ Copyright (c) 2000 - 2020 Intel Corporation
 
 ## Using compiled binaries with MaciASL
 
-The developers are releasing, from time to time, updates to their main tool [MaciASL](https://github.com/acidanthera/MaciASL/releases) that includes the latest compiled binaries at the time of each release.
+The developers are releasing, from time to time, updates to their main tool [MaciASL](https://github.com/acidanthera/MaciASL/releases) that includes the latest compiled binaries at the _time_ of each release.
 
 Should one need to (manually) update `MaciASL.app` binaries with latest (or previous) compiled `iasl` versions, one can simply go to the `/MacOS/` folder of the tool and replace `iasl-stable` or `iasl-dev` with the respective versions needed.
 
