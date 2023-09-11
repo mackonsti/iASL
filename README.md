@@ -12,6 +12,10 @@ The **ACPI Component Architecture** project is currently hosted over at https://
 
 The sources themselves are freely accessible at https://www.acpica.org/downloads/ as **acpica-unix-YYYYMMDD.tar.gz** files (Intel license).
 
+## Direct Access to the Public ACPICA Git Repository
+
+According to Intel's own pages, the entire source code for the ACPICA project is maintained under the `git` version control system in a single repository. This repository can be directly accessed via `git://github.com/acpica/acpica.git`
+
 ## Compiling iASL
 
 According to user [acidanthera](https://github.com/acidanthera)'s page for [MaciASL tool](https://github.com/acidanthera/MaciASL), to build the latest ACPI compiler we need download the (latest) source release from [ACPICA.org](https://www.acpica.org/downloads/) and compile it via `Terminal.app` with the following command whilst in the unpacked sources folder:
