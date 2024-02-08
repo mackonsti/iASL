@@ -14,7 +14,9 @@ The sources themselves are freely accessible at https://www.acpica.org/downloads
 
 ## Direct Access to the Public ACPICA Git Repository
 
-According to Intel's own pages, the entire source code for the ACPICA project is maintained under the `git` version control system in a single repository. This repository can be directly accessed via `git://github.com/acpica/acpica.git`
+According to Intel, their entire source code for the ACPICA project is maintained under the `git` version control system in a single repository.
+
+This repository can be directly accessed via `git://github.com/acpica/acpica.git`
 
 ## Compiling iASL
 
